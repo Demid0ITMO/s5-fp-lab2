@@ -23,7 +23,7 @@ jobs:
     
     - name: Install deps
       run: |
-        opam install dune zanuda ocamlformat.0.26.2 ounit2
+        opam install dune zanuda ocamlformat.0.26.2 ounit2 qcheck-ounit
         eval $(opam env)
     
     - name: Formatter
